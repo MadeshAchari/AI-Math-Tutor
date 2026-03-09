@@ -1,0 +1,60 @@
+Using CPU. Note: This module is much faster with a GPU.
+C:\Users\MADESH.A\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\dataloader.py:775: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+Using CPU. Note: This module is much faster with a GPU.
+C:\Users\MADESH.A\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\dataloader.py:775: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+Using CPU. Note: This module is much faster with a GPU.
+Using CPU. Note: This module is much faster with a GPU.
+
+---
+Image: C:\Users\MADESH.A\Downloads\AI Math Tutor-20260309T045651Z-3-001\AI Math Tutor\ai_math_tutor\samples\eq_1.png
+Preprocessing done
+OCR raw: 2x + 3 = 7
+Extracted math: 2x+3=7
+LaTeX/expr: 2x+3=7
+Solutions: [2]
+Steps:
+ - Original : 2 x + 3 = 7
+ - Rearranged : 2 x - 4 = 0
+ - Solve : [2]
+Mistakes: []
+
+---
+Image: C:\Users\MADESH.A\Downloads\AI Math Tutor-20260309T045651Z-3-001\AI Math Tutor\ai_math_tutor\samples\eq_2.png
+Preprocessing done
+OCR raw: X^2 - Sx + 6 = 0
+Extracted math: X^2-Sx+6=0
+LaTeX/expr: X^2-Sx+6=0
+Solutions: [-sqrt(Sx - 6), sqrt(Sx - 6)]
+Steps:
+ - Original : - Sx + x^{2} + 6 = 0
+ - Rearranged : - Sx + x^{2} + 6 = 0
+ - Solve : [{Sx: x**2 + 6}]
+Mistakes: []
+
+---
+Image: C:\Users\MADESH.A\Downloads\AI Math Tutor-20260309T045651Z-3-001\AI Math Tutor\ai_math_tutor\samples\eq_3.png
+Preprocessing done
+OCR raw: (x+2)x-3) = 0
+Extracted math: (x+2)x-3)=0
+LaTeX/expr: (x+2)x-3)=0
+Solutions: [-3, 1]
+Steps:
+ - Original : x \left(x + 2\right) - 3 = 0
+ - Rearranged : x \left(x + 2\right) - 3 = 0
+ - Solve : [-3, 1]
+Mistakes: []
+
+---
+Image: C:\Users\MADESH.A\Downloads\AI Math Tutor-20260309T045651Z-3-001\AI Math Tutor\ai_math_tutor\samples\eq_4.png
+Preprocessing done
+OCR raw: 12 X^2 - 3x + 2 = 0
+Extracted math: 12X^2-3x+2=0
+LaTeX/expr: 12X^2-3x+2=0
+Solutions: [1/8 - sqrt(87)*I/24, 1/8 + sqrt(87)*I/24]
+Steps:
+ - Original : 12 x^{2} - 3 x + 2 = 0
+ - Rearranged : 12 x^{2} - 3 x + 2 = 0
+ - Solve : [1/8 - sqrt(87)*I/24, 1/8 + sqrt(87)*I/24]
+Mistakes: []
